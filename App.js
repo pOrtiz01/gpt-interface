@@ -1,20 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-
+import InputScreen from './App/screens/InputScreen';
 export default function App() {
-  return (
+  return(
     <View style={styles.container}>
-      <Text>Time to impress daddy dev!</Text>
-      <StatusBar style="auto" />
+      <InputScreen />
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });
