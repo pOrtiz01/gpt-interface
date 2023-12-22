@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View,SafeAreaView,TouchableOpacity,Dimensions,TextInput } from 'react-native';
+import { StyleSheet, View,SafeAreaView,TouchableOpacity,Dimensions,TextInput } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import React, { useState, useEffect } from 'react';
 import text from '../config/text';

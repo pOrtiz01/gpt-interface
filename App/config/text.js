@@ -8,4 +8,10 @@ export default StyleSheet.create({
         width:"100%",
         height:"100%"
     },
+    outputText:{
+        fontSize: 20,
+        fontWeight: 'bold',
+        letterSpacing: 0.40,
+        color:"black"
+    }
 });
